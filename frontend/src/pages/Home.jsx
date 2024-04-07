@@ -1,5 +1,10 @@
 import React from "react";
+import { Button } from "flowbite-react";
 
 export default function Home() {
-  return <div>Home</div>;
+  return (
+    <div>
+      <Button>Click me</Button>
+    </div>
+  );
 }
